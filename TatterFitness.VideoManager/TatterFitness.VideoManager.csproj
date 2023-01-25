@@ -28,8 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TatterFitness.Bll\TatterFitness.Bll.csproj" />
-    <ProjectReference Include="..\TatterFitness.Dal\TatterFitness.Dal.csproj" />
+    <ProjectReference Include="..\shared\TatterFitness.Bll\TatterFitness.Bll.csproj" />
+    <ProjectReference Include="..\shared\TatterFitness.Dal\TatterFitness.Dal.csproj" />
   </ItemGroup>
 
 </Project>

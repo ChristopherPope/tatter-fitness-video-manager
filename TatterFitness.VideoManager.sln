@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TatterFitness.VideoManager", "TatterFitness.VideoManager\TatterFitness.VideoManager.csproj", "{1DE15AFC-3C05-4D3F-B7CC-1FE62BDDB505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TatterFitness.Dal", "shared\TatterFitness.Dal\TatterFitness.Dal.csproj", "{71D1EF48-EF7F-422D-8C49-033C351EA508}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TatterFitness.Bll", "shared\TatterFitness.Bll\TatterFitness.Bll.csproj", "{B5650CC2-2FC0-4B1B-98C2-91250A1CFC00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TatterFitness.Models", "shared\TatterFitness.Models\TatterFitness.Models.csproj", "{56F171D8-D3DE-4C66-8264-BAB2A84AB1E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE15AFC-3C05-4D3F-B7CC-1FE62BDDB505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE15AFC-3C05-4D3F-B7CC-1FE62BDDB505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE15AFC-3C05-4D3F-B7CC-1FE62BDDB505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE15AFC-3C05-4D3F-B7CC-1FE62BDDB505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D1EF48-EF7F-422D-8C49-033C351EA508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D1EF48-EF7F-422D-8C49-033C351EA508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D1EF48-EF7F-422D-8C49-033C351EA508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D1EF48-EF7F-422D-8C49-033C351EA508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5650CC2-2FC0-4B1B-98C2-91250A1CFC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5650CC2-2FC0-4B1B-98C2-91250A1CFC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5650CC2-2FC0-4B1B-98C2-91250A1CFC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5650CC2-2FC0-4B1B-98C2-91250A1CFC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F171D8-D3DE-4C66-8264-BAB2A84AB1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F171D8-D3DE-4C66-8264-BAB2A84AB1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F171D8-D3DE-4C66-8264-BAB2A84AB1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F171D8-D3DE-4C66-8264-BAB2A84AB1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F117C7-7971-4C6F-AC72-E8AC282D2C2A}
+	EndGlobalSection
+EndGlobal
