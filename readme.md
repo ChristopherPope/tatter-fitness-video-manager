@@ -8,7 +8,22 @@ This .Net Core command line app allows me to:
 <br>
  
 - [TatterFitness Video Manager](#tatterfitness-video-manager)
+- [appsettings.json](#appsettingsjson)
 - [Import New Videos](#import-new-videos)
 
 <br>
+
+# appsettings.json
+    "TatterFitConfig": {
+        "RootVideoDirectory": "C:\\Users\\Chris\\OneDrive\\Videos\\TatterFitness",
+        "NewVidsSourceFolderName": "NewVideos",
+        "NewVidsDuplicateFolderName": "Duplicate",
+        "NewVidsFailureFolderName": "Failure",
+        "NewVidsStageFolderName": "Stage",
+        "NewVidsUploadedFolderName": "Uploaded",
+        "ExportedFolderName": "Exported"
+    },
+
+
 # Import New Videos
+Scans a folder (from the appsettings.json)
