@@ -33,7 +33,7 @@ This .Net Core command line app allows me to:
 ```
 
 ## TatterFitConfiguration class
-Foolows the [Options pattern](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
+Follows the [Options pattern](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
 ```
     internal class TatterFitConfiguration
     {
@@ -58,16 +58,16 @@ Foolows the [Options pattern](https://learn.microsoft.com/en-us/dotnet/core/exte
 
 
 # Import New Videos
-Scans the **NewVideosSourceDirectory** folder for videos and performs the following actions for each video:
-1. Move the video file to the **NewVideosStageDirectory** folder.
-2. Verify the video is not a duplicate and if so, move it to the **NewVideosDuplicateDirectory** folder.
+Scans the **NewVideosSourceDirectory** folder for videos and performs the following actions on each file:
+1. Move the file to the **NewVideosStageDirectory**.
+2. Verify the video is not a duplicate and if so, move it to the **NewVideosDuplicateDirectory**.
 3. Query which workout exercises (e.g. Squat, Bench Press) were created on the video's creation date.
    1. Prompt the user to select the workout exercise.
    2. Insert the ***Videos*** table row.
-   3. Move the video file to the **NewVideosUploadedDirectory** folder.
+   3. Move the video file to the **NewVideosUploadedDirectory**.
 
 # Export Videos
-Exports the videos in the ***Videos*** table to a file in the **ExportedVideosDirectory** folder.
+Exports the videos in the ***Videos*** table to a file in the **ExportedVideosDirectory**.
 
 ## Filename Convention
 The videos file names contain the WorkoutExerciseId from the ***WorkoutExercises*** table. However, since multiple videos can be associated with a single WorkoutExercise, a sequence number is added to the filename as well.
