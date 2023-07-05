@@ -60,8 +60,8 @@ Follows the [Options pattern](https://learn.microsoft.com/en-us/dotnet/core/exte
 # Import New Videos
 Scans the **NewVideosSourceDirectory** folder for videos and performs the following actions on each file:
 1. Move the file to the **NewVideosStageDirectory**.
-2. Verify the video is not a duplicate and if so, move it to the **NewVideosDuplicateDirectory**.
-3. Query which workout exercises (e.g. Squat, Bench Press) were created on the video's creation date.
+2. Verify the video is not a duplicate and if is, move it to the **NewVideosDuplicateDirectory**.
+3. Query which workout exercises (e.g. Squat, Bench Press) were performed on the video's creation date.
    1. Prompt the user to select the workout exercise.
    2. Insert the ***Videos*** table row.
    3. Move the video file to the **NewVideosUploadedDirectory**.
